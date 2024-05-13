@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="upper">
+        <table class="upper">
+            <h1>Montreal - Tourism</h1>
+            <h3>A trip evaluator for a visit</h3>
+            <form>
+            <tr>
+            <td width="90px"><label>Visitor:</label></td>
+            <td><input type="text" placeholder="your name" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Sex:</label></td>
+                <td>
+                    <input type="radio" name="sex">Male<br>
+                    <input type="radio" name="sex">Female
+                </td>
+            <tr>
+                <td>
+                    <label>Number:</label>
+                </td>
+                <td>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select> persons
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Duration:</label>
+                </td>
+                <td>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+
+                    </select> days
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hotel:</label>
+                </td>
+                <td>
+                    <select>
+                        <option>1 star</option>
+                        <option>2 stars</option>
+                        <option selected="selected">3 stars</option>
+                        <option>4 stars</option>
+                        <option>5 stars</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Room Type:</label>
+                </td>
+                <td>
+                    <select>
+                        <option>Single room</option>
+                        <option selected="selected">Semi-suite </option>
+                        <option>Suite</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <label>Activities:</label>
+                </td>
+                <td>
+                    <input type="checkbox">City-bus-tours Can$ 20<br>
+                    <input type="checkbox">Spa-Manage Can$ 100<br>
+                    <input type="checkbox">Sport Event Can$ 150<br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2px">
+                    <input type="Submit" value="Evaluate" class="btn">
+                    <input type="reset" value="Reset" class="btn">
+                </td>
+            </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
